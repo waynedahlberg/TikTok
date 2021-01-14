@@ -9,4 +9,8 @@ target 'TikTok' do
   pod 'Firebase/Auth'
   pod 'Firebase/Analytics'
   pod 'Firebase/Crashlytics'
+
+  pod 'Appirater'
+  pod 'SDWebImage'
+
 end
