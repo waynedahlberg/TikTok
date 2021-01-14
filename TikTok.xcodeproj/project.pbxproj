@@ -54,14 +54,62 @@
 		5D29FA0725AFE9A800758BA7 /* TikTok */ = {
 			isa = PBXGroup;
 			children = (
-				5D29FA0825AFE9A800758BA7 /* AppDelegate.swift */,
-				5D29FA0A25AFE9A800758BA7 /* SceneDelegate.swift */,
-				5D29FA0C25AFE9A800758BA7 /* ViewController.swift */,
-				5D29FA1125AFE9A900758BA7 /* Assets.xcassets */,
-				5D29FA1325AFE9A900758BA7 /* LaunchScreen.storyboard */,
+				5DD33F1325AFF61C00C90610 /* Managers */,
+				5DD33F1225AFF60B00C90610 /* ViewModels */,
+				5DD33F1125AFF5DF00C90610 /* Models */,
+				5DD33F1025AFF5D400C90610 /* Views */,
+				5DD33F0F25AFF5CE00C90610 /* Controllers */,
+				5DD33F0E25AFF5C300C90610 /* Resources */,
 				5D29FA1625AFE9A900758BA7 /* Info.plist */,
 			);
 			path = TikTok;
+			sourceTree = "<group>";
+		};
+		5DD33F0E25AFF5C300C90610 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D29FA1125AFE9A900758BA7 /* Assets.xcassets */,
+				5D29FA0825AFE9A800758BA7 /* AppDelegate.swift */,
+				5D29FA0A25AFE9A800758BA7 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5DD33F0F25AFF5CE00C90610 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D29FA0C25AFE9A800758BA7 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5DD33F1025AFF5D400C90610 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D29FA1325AFE9A900758BA7 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5DD33F1125AFF5DF00C90610 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5DD33F1225AFF60B00C90610 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5DD33F1325AFF61C00C90610 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
